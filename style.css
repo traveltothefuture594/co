@@ -1,0 +1,91 @@
+*{
+   margin:0;
+   padding:0;
+   border:0;
+   font-size: 100%;
+   vertical-align: baseline;
+}
+body{
+text-align: center;
+font-family: sans-serif;
+}
+
+.navbar{
+display:flex;
+justify-content: center;
+height: 100px;
+background-color: aqua;
+align-items: center;
+}
+
+.navbar a{
+    padding: 23px 20px;
+    color:#d60e0e;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+background-color: black;
+color: white;
+}
+header.titulo{
+    margin-top: 100px;
+}
+body{
+background: url(img/fondo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+.title{
+    margin: 40px 0 20px 0;
+    font-size: 60px;
+    font-weight: 600;
+}
+.btn-home.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid springgreen;
+    color: white;
+    text-decoration: none;
+    background: solid;
+
+}
+.pagina{
+ width: 100%;
+ background-color: aqua;
+ height: 100px;
+ margin-right: 50px;
+ align-items: center;
+}
+
+.form{
+    background-color:aqua;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    color: black;
+    border-radius: 4px;
+}
+.input, textarea{
+    outline: none;
+    border: 0;
+    width: 300px;
+}
+.field{
+    border: solid 1px;
+    padding: 10px;
+}
+
+.field:focus{
+    border-color: black;
+}
+
+.center-content{
+    text-align: center;
+
+}
+   
